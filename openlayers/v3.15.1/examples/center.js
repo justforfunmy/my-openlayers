@@ -1,5 +1,5 @@
 var source = new ol.source.Vector({
-  url: 'data/geojson/switzerland.geojson',
+  url: 'http://localhost:3000/data/geojson/switzerland.geojson',
   format: new ol.format.GeoJSON()
 });
 var style = new ol.style.Style({
